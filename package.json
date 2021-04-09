@@ -1,0 +1,32 @@
+{
+  "name": "stem-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@chakra-ui/core": "0.8.0",
+    "@emotion/core": "10.0.28",
+    "@emotion/styled": "10.0.27",
+    "blockly": "^3.20200924.4",
+    "emotion-theming": "10.0.27",
+    "js-interpreter": "^2.2.0",
+    "next": "^10.0.3",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-icons": "^4.1.0",
+    "react-iframe": "^1.8.0",
+    "viviui": "^1.7.3"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "standard": "^16.0.3"
+  },
+  "standard": {
+    "parser": "babel-eslint"
+  }
+}
